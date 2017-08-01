@@ -1,0 +1,62 @@
+main#cms-main article.media-photo {
+		margin-bottom: 25px;
+}
+
+main#cms-main article.media-photo div.img, div.video{
+	border: 1px solid #ccc;
+	min-height: 200px;
+	border-radius: 3px 3px 0px 0px;
+	overflow: hidden;
+	max-height: 200px;
+}
+main#cms-main article.media-photo div.img:hover{
+	opacity: 0.5;
+}
+
+main#cms-main article.media-photo div.media-action{
+	border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 5px;
+    height: 39px;
+}
+main#cms-main article.media-photo div.media-action p{
+	margin: 0;
+    font-size: 20px;
+}
+main#cms-main article.media-photo div.media-action p span.glyphicon-heart, .glyphicon-heart-empty{
+	cursor: pointer
+}
+main#cms-main article.media-photo div.media-action p span.glyphicon-comment{
+	margin-left: 40px;
+	cursor: pointer;
+}
+footer#cms-footer{
+	width: 100%; 
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+}
+main#cms-main div.container div.row div.paging{
+	position:fixed;
+	bottom: 3%;
+	text-align: center;
+	width: 91%;
+}
+main#cms-main article.media-photo div.media-action p .num-engate{
+	font-size: 19px !important;
+    vertical-align: top;
+    line-height: 25px;
+}
+article.media-photo .media .play{
+	    background-image: url('http://teachlikeachampion.com/wp-content/themes/tlac2014/images/play_arrow2.png');
+        background-repeat:no-repeat;
+        width:50%;
+        height:50%;
+        position:absolute;
+        left:23%;
+        top:12%;
+        background-size:contain;
+        background-position: center;
+}

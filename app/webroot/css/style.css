@@ -1,0 +1,40 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.main{
+	background: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/06/galaxy-wallpapers-22-1.jpg') no-repeat;
+	height: 100vh;
+}
+
+.header{
+
+	color: white;
+	font-family: "Comic Sans MS",Sans;
+	font-size: 38px;
+	padding: 15px 100px 15px;
+	margin-bottom: 40px;  
+}
+
+.container{
+	width: 35%; 
+	height: 320px;
+	background: #fff;
+	border-radius: 10px;
+}
+
+.container .h2, .foot{
+	text-align: center;
+	color: gray;
+	margin-bottom: 5px;
+}
+
+label {
+	    padding-top: 7px;
+}
+
+main#cms-main article.media-photo div.media-action p .num-engate{
+	font-size: 24px !important;
+}
